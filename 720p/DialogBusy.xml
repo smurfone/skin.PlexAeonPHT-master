@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<window id="136">
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+	<controls>
+
+		<control type="image">
+			<description>Darken screen</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+			<texture>common/black.png</texture>
+			<colordiffuse>77FFFFFF</colordiffuse>
+			<include>Animation_CommonFade</include>
+			<visible>true</visible>
+		</control>
+
+<!--
+		<control type="group" id="901">
+			<include>Dialogs_Group</include>
+			<include>Dialogs_Tablet</include>
+			<include>Dialogs_Exclam</include>
+			<control type="label" id="401">
+				<include>Dialogs_Label2</include>
+				<label>WORKING</label>
+			</control>
+
+			<control type="label" id="401">
+				<include>Dialogs_Label3</include>
+				<label>PLEASE WAIT</label>
+			</control>
+
+		</control>
+
+
+		<control type="image">
+			<posx>595</posx>
+			<posy>295</posy>
+			<width>95</width>
+			<height>88</height>
+			<aspectratio scalediffuse="false">scale</aspectratio>		
+			<texture diffuse="thumbs/cdcover_mask.png">dialogs/scan_icon.png</texture>		
+			<bordertexture border="-11">thumbs/cd_shadow.png</bordertexture>
+   		    <colordiffuse>EFFFFFFF</colordiffuse>
+		</control>
+-->
+		
+		<control type="label">
+		<animation type="WindowOpen" reversible="false">
+			<effect type="fade" delay="0" start="0" end="100" time="500" />
+		</animation>
+		<animation type="WindowClose" reversible="false">
+			<effect type="fade" delay="0" start="100" end="0" time="200" />
+		</animation> 
+			<posx>560</posx>
+			<posy>0</posy>
+			<width>100</width>
+			<height>23</height>
+			<textcolor>FFFFFFFF</textcolor>
+			<label>Loading...</label>
+			<font>Font_Time</font>
+		</control>
+<!--
+		<control type="largeimage">
+			<posx>595</posx>
+			<posy>295</posy>
+			<width>95</width>
+			<height>88</height>
+			<texture diffuse="thumbs/cdcover_mask.png">thumbs/poster_glass_noedge.png</texture>		
+			<aspectratio scalediffuse="false">scale</aspectratio>		
+		</control>
+-->
+	</controls>
+</window>

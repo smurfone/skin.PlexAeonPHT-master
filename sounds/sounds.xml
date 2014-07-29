@@ -1,0 +1,49 @@
+<sounds>
+  <actions>
+    <action>
+      <name>left</name>
+      <file>cursor.wav</file>
+    </action>
+    <action>
+      <name>right</name>
+      <file>cursor.wav</file>
+    </action>
+    <action>
+      <name>up</name>
+      <file>cursor.wav</file>
+    </action>
+    <action>
+      <name>down</name>
+      <file>cursor.wav</file>
+    </action>
+    <action>
+      <name>select</name>
+      <file>select.wav</file>
+    </action>
+    <action>
+      <name>parentdir</name>
+      <file>back.wav</file>
+    </action>
+    <action>
+      <name>previousmenu</name>
+      <file>back.wav</file>
+    </action>
+    <action>
+      <name>screenshot</name>
+      <file>Shutter.wav</file>
+    </action>
+  </actions>
+
+  <windows>
+    <window>
+      <name>InfoDialog</name>
+      <activate>Notify.wav</activate>
+      <deactivate>Out.wav</deactivate>
+    </window>
+    <window>
+      <name>Startup</name>
+      <activate>Start.wav</activate>
+    </window>
+  </windows>
+
+</sounds>
